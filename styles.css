@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@300&display=swap');
+
+/* Nav bar and Title */
+header {
+    margin: 0px;
+}
+
+.title {
+    font-size: 35px;
+    font-family: 'Ubuntu Mono', monospace !important;
+    font-weight: 700;
+    margin: 0;
+    padding: 30px 0px 30px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+nav li a{
+    display: block;
+    padding: 20px 29px 20px 30px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#right {
+    border: solid;
+    border-width: 1px 0px 1px 1px;
+}
+
+#middle {
+    border:solid;
+    border-width: 1px 0px 1px 0px; 
+}
+
+#left {
+    border:solid;
+    border-width: 1px 1px 1px 0px; 
+}
+
+.active-page {
+    background-color: #8B6CEF;
+}
+
+/* Overall structure and elements */
+body {
+    width: 375px;
+    margin: 0;
+}
+
+
+body main {
+    margin: 10px;
+}
+
+main section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Ubuntu Mono', monospace;
+    color: #9272FC;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #413270
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #51007a;
+}
+
+span, p, li{
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+}
+
+p {
+    margin: 10px;
+}
+
+a {
+    color: #9272FC;
+}
+
+section {
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #9272FC;
+    padding-bottom: 15px;
+}
+
+section {
+    padding-top: 10px;
+}
+
+/* redefine list dot point to make coloured */
+main ul li::before {
+    content: "\25AA";
+    color: #9272FC;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
+
+/* Footer */
+footer {
+    margin: 10px;
+}
+footer p {
+    color: orange;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 700;
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+.footerbody p{
+    color: #664FB0;
+    margin: 0px;
+}
+
+.footerbody{
+    text-indent: 50px;
+    border-bottom: 0px;
+}
+
+.footerlink {
+    color: turquoise;
+    text-decoration: none;
+}
+
+footer {
+    border: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #9272FC;
+    padding-top: 12px;
+}
+
+/* Home */
+.about img {
+    width: 26%;
+    border-radius: 15px;
+    padding:9px;
+    float: right;
+}
+
+#bottom {
+    border-bottom: 0px;
+}
+
+/* Builds */
+#builds-bottom {
+    border-bottom: 0px;
+}
+
+/*Contact*/
+.main-social {
+    margin: 0px;
+}
+
+.instagram, .linkedin, .youtube, .github{
+    display: flex;
+    padding: 20px 0px 20px 40px;
+    text-decoration: none;
+    margin: 0px;
+    border: solid;
+    border-color: #9272FC;
+    border-width: 1px 0px 0px 0px;
+}
+
+.main-social img {
+    width: 70px !important;
+    margin-top: 8px !important;
+}
+
+.main-social span {
+    padding: 20px 0px 0px 50px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+    color: #8B6CEF;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+#top {
+    border-top: 0px !important;
+}
+
+#copyright {
+    border: solid;
+    border-color: #9272FC;
+    border-width: 1px 0px 0px 0px;
+}
